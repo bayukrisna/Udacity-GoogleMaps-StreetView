@@ -26,7 +26,7 @@ public class MainActivity extends FragmentActivity implements OnStreetViewPanora
         //set the panorama location on startup, when no
         // panoramas have been loaded
 
-        panorama.setPosition(new LatLng(-8.430173, 112.615093));
+        panorama.setPosition(new LatLng(-7.978063, 112.633844));
         StreetViewPanoramaCamera camera = new StreetViewPanoramaCamera.Builder()
                 .bearing(180)
                 .build();
